@@ -276,7 +276,6 @@ static void MX_GPIO_Init(void)
 void configuratio_of_GPIO(){
 	rccUnresetAndEnableDevice(Rcc_GPIOA);
 	rccUnresetAndEnableDevice(Rcc_GPIOC);
-<<<<<<< HEAD
 	//ADC Analog input AIN0 ,PA0
 	gpioConfigurePin(gpioA, PIN0, GPIO_ANALOG_IN);
 
@@ -294,27 +293,6 @@ void configuratio_of_GPIO(){
 	//USART 1 Tx : PA9 ,USART 1 Rx : PA10
 	gpioConfigurePin(gpioA, PIN9, GPIO_ALT_FUNC | GPIO_HIGH_SPEED | AF_7 | GPIO_PUSH_PULL);
 	gpioConfigurePin(gpioA, PIN10, GPIO_ALT_FUNC | AF_7);
-
-
-=======
-	//USART2 Tx PA2,  USART2 Rx PA3
-	gpioConfigurePin(gpioA, PIN2, GPIO_ALT_FUNC | GPIO_HIGH_SPEED | AF_7 | GPIO_PUSH_PULL);
-	gpioConfigurePin(gpioA, PIN3, GPIO_ALT_FUNC | AF_7);
-
-	//USART 6 Tx PC6 , USART 6 Rx PC7
-	gpioConfigurePin(gpioC, PIN6, GPIO_ALT_FUNC | GPIO_HIGH_SPEED | AF_8 | GPIO_PUSH_PULL);
-	gpioConfigurePin(gpioC, PIN7, GPIO_ALT_FUNC | AF_8);
-
-	//USART 1 Tx PA9 , USART 1 Rx  PA10
-	gpioConfigurePin(gpioA, PIN9, GPIO_ALT_FUNC | GPIO_HIGH_SPEED | AF_7 | GPIO_PUSH_PULL);
-	gpioConfigurePin(gpioA, PIN10, GPIO_ALT_FUNC | AF_7);
-
-	//ADC Analog input AIN0 ,PA0
-	gpioConfigurePin(gpioA, PIN0, GPIO_ANALOG_IN);
-
-	//LED Pin, PC10
-	gpioConfigurePin(gpioC, PIN10, GPIO_MEDIUM_SPEED | GPIO_PUSH_PULL | GPIO_OUTPUT);
->>>>>>> 084d52398ad1660cc61e45735166eeaa5c6d0937
 }
 
 void configuratio_of_Usart() {

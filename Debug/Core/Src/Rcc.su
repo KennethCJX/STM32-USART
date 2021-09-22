@@ -1,0 +1,5 @@
+Rcc.c:10:6:rccResetUnresetDevice	16	static
+Rcc.c:16:6:rccEnableClock	16	static
+Rcc.c:22:6:rccResetAndUnresetGpio	16	static
+Rcc.c:41:6:rccUnresetAndEnableTimer	16	static
+Rcc.c:49:6:rccUnresetAndEnableADC	16	static

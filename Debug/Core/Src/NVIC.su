@@ -1,0 +1,4 @@
+NVIC.c:11:6:nvicEnableIrq	24	static
+NVIC.c:20:6:nvicDisableIrq	24	static
+NVIC.c:29:6:nvicEnablePendingIrq	24	static
+NVIC.c:38:6:nvicDisablePendingIrq	24	static

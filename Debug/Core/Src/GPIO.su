@@ -1,0 +1,3 @@
+GPIO.c:10:6:gpioWritePin	24	static
+GPIO.c:17:5:gpioReadPin	16	static
+GPIO.c:21:6:gpioConfigurePin	24	static

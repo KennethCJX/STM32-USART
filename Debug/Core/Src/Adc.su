@@ -1,0 +1,4 @@
+Adc.c:11:6:Adc_setSampleTime	24	static
+Adc.c:50:6:Adc_setRegularChannel	16	static
+Adc.c:55:6:Adc_setChannelSequence	24	static
+Adc.c:59:6:Adc_Configuration	16	static

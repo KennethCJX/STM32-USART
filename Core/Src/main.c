@@ -274,8 +274,8 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 void configuratio_of_GPIO(){
-	rccUnresetAndEnableDevice(Rcc_GPIOA);
-	rccUnresetAndEnableDevice(Rcc_GPIOC);
+	rccResetAndUnresetGpio(Rcc_GPIOA);
+	rccResetAndUnresetGpio(Rcc_GPIOC);
 	//ADC Analog input AIN0 ,PA0
 	gpioConfigurePin(gpioA, PIN0, GPIO_ANALOG_IN);
 
